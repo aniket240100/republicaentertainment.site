@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Republica Entertainment</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            max-width: 1200px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        /* Header */
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        #about {
+            background: #f4f4f4;
+        }
+
+        #services, #portfolio, #team, #contact {
+            background: #fff;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Portfolio Items */
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            background: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            border-radius: 10px;
+        }
+
+        /* Contact Form */
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        #contact button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #contact button:hover {
+            background: #555;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="/Users/aniketshinde/Downloads/RepublicaEnt.png" alt="Republica Entertainment Logo">
+        <h1>Republica Entertainment</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Republica Entertainment is a creative powerhouse dedicated to crafting unforgettable experiences. With a passion for innovation and excellence, we specialize in delivering high-quality production services, from event management to film production. Our mission is to bring stories and visions to life while exceeding client expectations at every step.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>Republica Entertainment offers a range of services tailored to meet your event needs:</p>
+            <ul>
+                <li>Event Management: Expert planning and execution of live concerts, corporate events, and more.</li>
+                <li>Film Production: Turning compelling stories into visually stunning realities.</li>
+                <li>Corporate Videos: Tailored video production for businesses to enhance brand identity.</li>
+                <li>Logistics & Operations: Seamless coordination of artist logistics and supply chain management.</li>
+                <li>Promotional Campaigns: Effective strategies to boost brand visibility and audience engagement.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="portfolio1.jpg" alt="Corporate Event">
+                    <h3>Corporate Event 2023</h3>
+                    <p>An elegant corporate gala with live performances and stunning visuals.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio2.jpg" alt="Live Concert">
+                    <h3>Live Concert</h3>
+                    <p>A high-energy concert with internationally renowned artists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <p>Meet the creative minds behind Republica Entertainment who ensure every event is a success.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+<form>
+    <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+</form>
+
+<div class="contact-info">
+    <h3>Contact Information</h3>
+   
+    <p>Email: <a href="mailto:info@republicaentertainment.com">info@republicaentertainment.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/republica_entertainment" target="_blank">@republica_entertainment</a></p>
+</div>
+
+<!-- CSS Styling -->
+<style>
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f7f7f7;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .contact-info {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-info h3 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .contact-info p {
+        margin: 5px 0;
+        color: #555;
+    }
+
+    .contact-info a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2022 Republica Entertainment. All rights reserved.</p>
+   
+    </footer>
+</body>
+</html>
